@@ -1,0 +1,20 @@
+/* Reset box */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset body  */
+body {
+  margin: 0;
+}
+
+/* Reset nav menu */
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+} 
