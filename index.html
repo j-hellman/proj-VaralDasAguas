@@ -8,8 +8,8 @@
     <meta name="description" content="Varal das Águas">
     <meta name="keywords" content="Varal das Águas, concurso de fotografias">
     <meta name="author" content="Jaime Hellman">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="publico/css/reset.css">
+    <link rel="stylesheet" href="publico/css/main.css">
     
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,16 +22,16 @@
       <!-- Barra de navegação -->
       <nav>
         <ul>
-          <li><a href="#">Início</a></li>  
-          <li><a href="#">O Concurso</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Regras</a></li>
-          <li><a href="#">Inscrição</a></li>
+          <li><a href="#home">Início</a></li>  
+          <li><a href="#concurso">O Concurso</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#regras">Regras</a></li>
+          <li><a href="#inscrição">Inscrição</a></li>
         </ul>
       </nav> 
 
       <!-- Seção principal -->
-      <main>
+      <main id="home">
         <div class="hero-section">
           <h1>Varal das Águas</h1>
           <p>Concurso de Fotografia</p>
@@ -40,14 +40,14 @@
     </div>
 
     <!-- Corpo da página -->
-    <div class="div-texto-geral">
-      <div class="div-texto-inicio">
-        <div class="div-subtexto1-inicio">
-          <h2 class="title">O CONCURSO</h2>
-          <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, ratione voluptatibus error dolorum ipsam cumque corporis commodi praesentium cum. Laboriosam.</p>
+    <div class="wrap-geral">
+      <div class="wrap-inicio" id="concurso">
+        <div class="inicio-div1">
+          <h2 class="titulo1">O CONCURSO</h2>
+          <p class="texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab error cupiditate nemo magni? Magni, recusandae ipsum, inventore repellendus sequi, maxime maiores sit vero accusantium ducimus laborum enim adipisci odit porro facilis veniam eum similique excepturi optio. Assumenda odit, quaerat at, fugit culpa nulla eligendi quos earum laborum doloribus accusamus nihil?</p>
         </div>
-        <div class="div-subtexto2-inicio">
-          <div>
+        <div class="inicio-div2">
+          <div class="inicio-div3">
             <div>
               <h4>EXPOSIÇÃO DE FOTOS</h4>
             </div>
@@ -55,62 +55,65 @@
               <h4>APRESENTAÇÃO</h4>
             </div>
           </div>
-          <div>
+          <!-- <div class="inicio-div4"> -->
             <button>FAÇA SUA INSCRIÇÃO</button>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
 
-      <div class="wrap-area-meio1">
-        <h2 class="title">SOBRE</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, ipsum. Est atque ullam quam, fugit commodi possimus ad, beatae temporibus, iste ratione soluta eum eos fuga quasi? Dolore, laborum eaque.</p>       
-        <h4>Dos participantes</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam minima nulla quasi minus dicta fugiat sapiente nobis ducimus maxime saepe optio consequatur ipsa officia nisi voluptatum! Error, repellat dignissimos?</p>
-        <h4>Das especificações das fotografias participantes</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi ullam quos molestiae voluptate nulla inventore tempore architecto facilis dolores molestias. Recusandae incidunt, velit officia tenetur possimus officiis illum nesciunt minima!</p>
-        <h4>Premiação final do concurso</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur consequuntur deleniti atque molestiae eius illum explicabo vel temporibus impedit porro aperiam tempora neque quisquam amet accusantium, minus voluptate excepturi reprehenderit?</p>
+      <div class="wrap-meio" id="sobre">
+        <h2 class="titulo2">SOBRE</h2>
+        <p class="texto2">Objetivos</p>
+        <p class="texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, ipsum. Est atque ullam quam, fugit commodi possimus ad, beatae temporibus, iste ratione soluta eum eos fuga quasi? Dolore, laborum eaque.</p>       
+        <p class="texto2">Dos participantes</p>
+        <p class="texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam minima nulla quasi minus dicta fugiat sapiente nobis ducimus maxime saepe optio consequatur ipsa officia nisi voluptatum! Error, repellat dignissimos?</p>
+        <p class="texto2">Das especificações das fotografias participantes</p>
+        <p class="texto2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi ullam quos molestiae voluptate nulla inventore tempore architecto facilis dolores molestias. Recusandae incidunt, velit officia tenetur possimus officiis illum nesciunt minima!</p>
+        <p class="texto2">Premiação final do concurso</p>
+        <p class="texto2 p-especial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur consequuntur deleniti atque molestiae eius illum explicabo vel temporibus impedit porro aperiam tempora neque quisquam amet accusantium, minus voluptate excepturi reprehenderit?</p>
       </div> 
 
-      <div class="wrap-area-meio2">
-        <h2 class="title">REGRAS</h2 >
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, hic.</p>
+      <div class="wrap-meio" id="regras">
+        <h2 class="titulo2">REGRAS</h2 >
+        <p class="texto2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, hic, maiores nobis ea rerum omnis, aut doloremque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, hic, maiores nobis ea rerum omnis, aut doloremque.</p>
         <ul>
-          <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi.</p></li>
-          <li><p>Voluptatem odit suscipit maiores nobis ea rerum omnis, aut doloremque.</p></li>
-          <li><p>Voluptas impedit molestias mollitia consectetur explicabo totam assumenda, odit ea!</p></li>
-          <li><p>Harum quae quasi odit temporibus praesentium repudiandae delectus facilis dignissimos.</p></li>
-          <li><p>Doloremque blanditiis molestiae nulla dolor assumenda deserunt harum, vitae id?</p></li>
-          <li><p>Quaerat est architecto sit enim tempore esse possimus delectus natus?</p></li>
-          <li><p>Non debitis veniam excepturi qui obcaecati voluptatem alias! Harum, aliquam?</p></li>
-          <li><p>Quia ratione, deserunt minus accusamus iusto soluta inventore placeat. Tempora!</p></li>
+          <li><p class="texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi.</p></li>
+          <li><p class="texto2">Voluptatem odit suscipit maiores nobis ea rerum omnis, aut doloremque.</p></li>
+          <li><p class="texto2">Voluptas impedit molestias mollitia consectetur explicabo totam assumenda, odit ea!</p></li>
+          <li><p class="texto2">Harum quae quasi odit temporibus praesentium repudiandae delectus facilis dignissimos.</p></li>
+          <li><p class="texto2">Doloremque blanditiis molestiae nulla dolor assumenda deserunt harum, vitae id?</p></li>
+          <li><p class="texto2">Quaerat est architecto sit enim tempore esse possimus delectus natus?</p></li>
+          <li><p class="texto2">Non debitis veniam excepturi qui obcaecati voluptatem alias! Harum, aliquam?</p></li>
+          <li><p class="texto2">Quia ratione, deserunt minus accusamus iusto soluta inventore placeat. Tempora!</p></li>
         </ul>
-        <p>Voluptate quae consequuntur atque, esse distinctio minima assumenda voluptates et?</p>
+        <br>
+        <p class="texto2 p-especial">Voluptate quae consequuntur atque, esse distinctio minima assumenda voluptates et?</p>
       </div> 
 
-      <div class="wrap-area-final">
-        <h2 class="title">INSCRIÇÃO</h2>
+      <div class="wrap-final" id="inscrição">
+        <h2 class="titulo2">INSCRIÇÃO</h2>
+        <!-- Formulário de inscrição -->
         <form action="#">          
           <fieldset class="fieldset-estilo">
             <div class="text-field">
               <p>
-                <label for="username">Nome do colaborador:<abbr title="required" aria-label="required" >*</abbr></label> 
+                <label for="username" class="texto2">Nome do colaborador:<abbr title="required" aria-label="required" >*</abbr></label> 
                 <input type="text" id="username" name="username" placeholder="Digite seu nome completo" required>
               </p>
               <p>
-                <label for="pass">Nome da foto:<abbr title="required" aria-label="required">*</abbr></label> 
+                <label for="pass" class="texto2">Nome da foto:<abbr title="required" aria-label="required">*</abbr></label> 
                 <input type="password" id="pass" name="password" placeholder="Digite o nome da foto" required>
               </p>
               <p>
-                <label for="pass">Local da foto:<abbr title="required" aria-label="required">*</abbr></label> 
+                <label for="pass" class="texto2">Local da foto:<abbr title="required" aria-label="required">*</abbr></label> 
                 <input type="password" id="pass" name="password" placeholder="Digite o local da foto" required>
               </p>
               <p>
-                <label for="pass">Data de registro:<abbr title="required" aria-label="required">*</abbr></label> 
+                <label for="pass" class="texto2">Data de registro:<abbr title="required" aria-label="required">*</abbr></label> 
                 <input type="password" id="pass" name="password" placeholder="Insira a data da foto" required>
               </p>
               <p>
-                <label for="confirm-pass">Arquivo de imagem:<abbr title="required" aria-label="required">*</abbr></label> 
+                <label for="confirm-pass" class="texto2">Arquivo de imagem:<abbr title="required" aria-label="required">*</abbr></label> 
                 <input type="password" id="confirm-pass" name="confirm-pass"  placeholder="Confirm your password here" required>
               </p>
               <ul>
@@ -128,8 +131,7 @@
 
             </div>
   
-            <!-- Submit button -->
-            <button type="submit">Submit</button>
+            <button type="submit">Enviar</button>
             
           </fieldset>
         </form>
