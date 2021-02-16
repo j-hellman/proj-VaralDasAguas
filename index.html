@@ -27,7 +27,7 @@
           <li><a href="#concurso">O Concurso</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#regras">Regras</a></li>
-          <li><a href="#inscrição">Inscrição</a></li>
+          <li><a href="#inscrição" class="especial-menu">Inscrição</a></li>
         </ul>
       </nav> 
 
@@ -91,27 +91,27 @@
         <h2 class="titulo2">INSCRIÇÃO</h2>
         <!-- Formulário de inscrição -->
         <form action="#">          
-          <fieldset class="fieldset-estilo">
+          <fieldset>
             <div class="text-field">
               <p>
-                <label for="username" class="texto2">Nome do colaborador:<abbr title="required" aria-label="required" >*</abbr></label> 
-                <input type="text" id="username" name="username" placeholder="Digite seu nome completo" required>
+                <label for="usuario" class="texto2">Nome do colaborador:<abbr title="required" aria-label="required" >*</abbr></label> 
+                <input type="text" id="usuario" name="nome" placeholder="Digite seu nome completo" required>
               </p>
               <p>
-                <label for="pass" class="texto2">Nome da foto:<abbr title="required" aria-label="required">*</abbr></label> 
-                <input type="password" id="pass" name="password" placeholder="Digite o nome da foto" required>
+                <label for="nomeFoto" class="texto2">Nome da foto:<abbr title="required" aria-label="required">*</abbr></label> 
+                <input type="text" id="nomeFoto" name="nome_foto" placeholder="Digite o nome da foto" required>
               </p>
               <p>
-                <label for="pass" class="texto2">Local da foto:<abbr title="required" aria-label="required">*</abbr></label> 
-                <input type="password" id="pass" name="password" placeholder="Digite o local da foto" required>
+                <label for="localFoto" class="texto2">Local da foto:<abbr title="required" aria-label="required">*</abbr></label> 
+                <input type="text" id="localFoto" name="local_foto" placeholder="Digite o local da foto" required>
               </p>
               <p>
-                <label for="pass" class="texto2">Data de registro:<abbr title="required" aria-label="required">*</abbr></label> 
-                <input type="password" id="pass" name="password" placeholder="Insira a data da foto" required>
+                <label for="dataFoto" class="texto2">Data de registro:<abbr title="required" aria-label="required">*</abbr></label> 
+                <input type="date" id="dataFoto" name="data_foto" placeholder="Digite a data da foto" required>
               </p>
               <p>
-                <label for="confirm-pass" class="texto2">Arquivo de imagem:<abbr title="required" aria-label="required">*</abbr></label> 
-                <input type="password" id="confirm-pass" name="confirm-pass"  placeholder="Confirm your password here" required>
+                <label for="img" class="texto2">Arquivo de imagem:<abbr title="required" aria-label="required">*</abbr></label> 
+                <!-- <input type="text" id="confirm-pass" name="confirm-pass"  placeholder="Confirm your password here" required> -->
               </p>
               <ul>
                 <li>
@@ -124,8 +124,10 @@
                 </li>
               </ul>
             </div>
-  
-            <button type="submit">Enviar</button>
+            <p class="aviso">*Preenchimento obrigatório</p>
+
+            <!-- Botão encaminhar -->
+            <div class="p-especial button-form"><button type="submit">Encaminhar</button></div>
             
           </fieldset>
         </form>

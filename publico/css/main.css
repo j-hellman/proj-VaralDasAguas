@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   font-family: 'Cabin', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 3em;
 }
 
@@ -40,6 +40,12 @@ nav a {
 
 nav a:hover {
   color: white;
+}
+
+.especial-menu {
+  color: white;
+  padding: 0.5em;
+  background-color: #79512a;
 }
 
 
@@ -163,11 +169,55 @@ main {
 .button-insc {
   font-family: 'Cabin', sans-serif;
   color: white;
-  padding: 1em;
   margin: 2em 2em 2em 3em;
+  padding: 1em;
+
   background-color: #336699;
   border-style: none;
   cursor: pointer;
+}
+
+/* Formulário de inscrição */
+form {
+  width: 70ch;
+  min-width: 400px;
+  margin: auto;
+  margin-bottom: 2em;
+  border: 3px solid grey;
+  box-shadow: -8px 8px 8px;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+fieldset {
+  border-style: none;
+}
+
+.text-field p label {
+  width: 15ch;
+}
+
+.text-field p {
+  display: flex;
+}
+
+.text-field p input {
+  flex: 1;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.button-form {
+  text-align: center;
+}
+
+.aviso {
+  font-size: 12px;
+  font-family: 'Cabin', sans-serif;
+  color: #476b6b;
+  text-align: right;
 }
 
 
