@@ -165,7 +165,8 @@ main {
   margin-bottom: 0;
 }
 
-/* Botão de inscrição */
+
+/* Botão "Faça sua inscrição" */
 .button-insc {
   font-family: 'Cabin', sans-serif;
   color: white;
@@ -176,6 +177,7 @@ main {
   border-style: none;
   cursor: pointer;
 }
+
 
 /* Formulário de inscrição */
 form {
