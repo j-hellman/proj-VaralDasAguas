@@ -30,6 +30,12 @@
   - Fiz um "POST" no dia 15/02/21 com o nome "Teste" e uma foto do oceano;
   - Entretanto, em razão do meu início de estudo no Backend (utilizando JavaScript e Node), não consegui estabelecer em tempo habil a conexão entre o Frontend (formulário de inscrição) com a API disponibilizada.
   
+## Instrução de configuração e instalação:
+  - Para acessar o layout da página: 
+  - Para verificar o funcionamento manual do método POST criado (visto que ainda não criei a conexão entre o Front e o Back):
+    - baixar o projeto;
+    - executar o arquivo "app.js" no terminal, utilizando o comando "node app.js". 
+
 ## Créditos:
   - Fontes: [Google Fonts](https://fonts.google.com/)
   - Imagens: [Pexels](https://www.pexels.com/)
