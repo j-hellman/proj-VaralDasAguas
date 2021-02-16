@@ -31,7 +31,7 @@
   - Entretanto, em razão do meu início de estudo no Backend (utilizando JavaScript e Node), não consegui estabelecer em tempo habil a conexão entre o Frontend (formulário de inscrição) com a API disponibilizada.
   
 ## Instrução de configuração e instalação:
-  - Para acessar o layout da página: 
+  - Para acessar o layout da página: [Concurso Varal das Águas](http://jaimehellman.me/proj-VaralDasAguas)
   - Para verificar o funcionamento manual do método POST criado (visto que ainda não criei a conexão entre o Front e o Back):
     - baixar o projeto;
     - executar o arquivo "app.js" no terminal, utilizando o comando "node app.js". 
