@@ -14,7 +14,7 @@
   - Formulário de inscrição iniciado;
   - Logomarca criada.
 
-  * **Dia 3:** 15/02/2021
+* **Dia 3:** 15/02/2021
   - Barra de navegação criada;
   - Arquivo app.js criado;
   - Botão inscrição criado;
