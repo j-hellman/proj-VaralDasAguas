@@ -2,7 +2,7 @@
 
 ## Autor: [Jaime B Hellman](https://github.com/j-hellman)
 
-## Etapas do Desenvolvimento
+<!-- ## Etapas do Desenvolvimento
 * **Dia 1:** 13/02/2021
   - Estruturação do projeto: README, aquivos e pastas criadas;
   - Foto/imagem responsivamente trabalhada: redimensionada de 4000 para 2000 width, reduzindo assim o tamanho do arquivo de 1.7Mb para 390Kb, sem afetar a qualidade da mesma. Programas de edição utilizados: [GIMP](https://www.gimp.org/) e [Squoosh](https://squoosh.app);
@@ -23,7 +23,7 @@
 * **Dia 4:** 16/02/2021
   - Revisão do código;
   - Finalização do README;
-  - Envio do projeto.
+  - Envio do projeto. -->
 
 ## Comentário sobre a API REST:
   - Consegui consumir a API REST [disponibilizada](http://apidev.inema.ba.gov.br) utilizando o método "POST" e também o "GET", sendo este apenas como teste, já que não foi exigido na avaliação;
