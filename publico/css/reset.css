@@ -15,6 +15,7 @@ nav ul {
   margin: 0;
 }
 
+/* Reset link */
 nav a {
   text-decoration: none;
 } 

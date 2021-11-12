@@ -42,11 +42,12 @@ nav a:hover {
   color: white;
 }
 
-.especial-menu {
+.special {
   color: white;
   padding: 0.5em;
   background-color: #79512a;
 }
+/*  */
 
 
 /* Logomarca */
@@ -62,10 +63,10 @@ nav a:hover {
   border-left-style: none;
 }
 
-main {
+/* main {
   display: flex;
   justify-content: center;
-}
+} */
 
 .logo > h1 {
   font-size: 40px;
