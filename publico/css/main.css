@@ -4,20 +4,7 @@ html {
 }
 
 
-/* Tela inicial */
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: auto;
-
-  background-image: url("../img/lg/foto-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-/* Barra de navegação */
+/* Cabecalho */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -42,16 +29,24 @@ nav a:hover {
   color: white;
 }
 
-.special {
+.special { /* Link inscricao */
   color: white;
   padding: 0.5em;
   background-color: #79512a;
 }
-/*  */
 
+.header-area {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
 
-/* Logomarca */
-.logo {
+  background-image: url("../img/lg/foto-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo { /* Logomarca */
   width: 25em;
   color:  #79512a;
   margin-top: 3em;
@@ -63,11 +58,6 @@ nav a:hover {
   border-left-style: none;
 }
 
-/* main {
-  display: flex;
-  justify-content: center;
-} */
-
 .logo > h1 {
   font-size: 40px;
   font-family: 'Merienda', cursive;
@@ -77,29 +67,37 @@ nav a:hover {
   font-size: 25px;
   font-family: 'Cabin', sans-serif;
 }
+/*  */
 
 
-/* Estilização fundo texto */
-.wrap-geral {
+/* Fundo texto */
+main {
   background-color: #ffe6ff;
 }
 
+/*Seções texto */
+section {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #FFF;
+}
 
-/* Estilização seções texto */
-.wrap-inicio {
+.area-concurso {
   display: flex;
-  margin: 0 7em;
-  background-color: white;
+}
+
+.section-area {
+  max-width: 80%;
+  margin: 0 auto;
+  /* margin: 0 7em; */
 }
 
 .inicio-div1 {
-  margin-left: 7em;
   padding-right: 10em;
   border-bottom: 1px gray solid;
 }
 
 .inicio-div2 {
-  margin-right: 7em;
   border-bottom: 1px gray solid;
 }
 
@@ -117,17 +115,6 @@ nav a:hover {
   display: flex;
   justify-content: center;
 
-}
-
-.wrap-meio, .wrap-final {
-  margin: 0 7em;
-  padding: 0 7em;
-  background-color: white;
-}
-
-.wrap-meio > ul {
-  padding-left: 1em;
-  color: #476b6b;
 }
 
 .titulo1 {
