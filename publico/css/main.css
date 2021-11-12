@@ -36,11 +36,8 @@ nav a:hover {
 }
 
 .header-area {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   width: auto;
-
   background-image: url("../img/lg/foto-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +48,6 @@ nav a:hover {
   color:  #79512a;
   margin-top: 3em;
   text-align: center;
-
   border: 3px solid white;
   border-radius: 15px;
   border-right-style: none;
@@ -82,8 +78,16 @@ section {
   background-color: #FFF;
 }
 
-.area-concurso {
+/* Flexbox row */
+.flex-row {
   display: flex;
+  flex-direction: row;
+}
+
+/* Flexbox column */
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-area {
@@ -114,7 +118,6 @@ section {
 .inicio-div4 {
   display: flex;
   justify-content: center;
-
 }
 
 .titulo1 {
@@ -125,7 +128,7 @@ section {
   padding: 1em 0;
 }
 
-.titulo2 {
+.section-area h2 {
   font-family: 'Cabin', sans-serif;
   color: #336699 ;
   text-align: center;
@@ -134,15 +137,15 @@ section {
   margin-top: 0;
 }
 
-.texto1 {
+/* .texto1 {
   font-size: 20px;
   font-family: 'Cabin', sans-serif;
   color: #476b6b;
   line-height: 1.3em;
   margin-bottom: 5em;
-}
+} */
 
-.texto2 {
+.section-area p {
   font-size: 20px;
   font-family: 'Cabin', sans-serif;
   color: #476b6b;
