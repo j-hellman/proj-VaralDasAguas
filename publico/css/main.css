@@ -161,30 +161,12 @@ main {
 
 /* Formulário de inscrição */
 form {
-  width: 70ch;
-  min-width: 400px;
-  margin: auto;
-  margin-bottom: 2em;
-  border: 3px solid grey;
-  box-shadow: -8px 8px 8px;
+  max-width: 70ch;
+  min-width: 500px;
+  margin: 0 auto;
+  border: 2px solid grey;
   border-radius: 1em;
   padding: 1em;
-}
-
-.text-field p label {
-  width: 15ch;
-}
-
-.text-field p {
-  display: flex;
-}
-
-.text-field p input {
-  flex: 1;
-}
-
-abbr {
-  text-decoration: none;
 }
 
 .btn-form {
