@@ -171,10 +171,6 @@ form {
   padding: 1em;
 }
 
-fieldset {
-  border-style: none;
-}
-
 .text-field p label {
   width: 15ch;
 }
@@ -195,13 +191,6 @@ abbr {
   text-align: center;
 }
 /**/
-
-.aviso {
-  font-size: 12px;
-  font-family: 'Cabin', sans-serif;
-  color: #476b6b;
-  text-align: right;
-}
 
 /* Rodapé */
 footer {

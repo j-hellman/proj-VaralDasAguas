@@ -115,52 +115,42 @@
       <section id="inscricao">
         <div class="section">
           <h1>INSCRIÇÃO</h1>
+
           <!-- Formulário de inscrição -->
-          <form action="#">
-            <fieldset>
-              <div class="text-field">
-                <p>
-                  <label for="usuario" class="texto2">Nome do colaborador:<abbr title="required"
-                      aria-label="required">*</abbr></label>
-                  <input type="text" id="usuario" name="nome" placeholder="Digite seu nome completo" required>
-                </p>
-                <p>
-                  <label for="nomeFoto" class="texto2">Nome da foto:<abbr title="required"
-                      aria-label="required">*</abbr></label>
-                  <input type="text" id="nomeFoto" name="nome_foto" placeholder="Digite o nome da foto" required>
-                </p>
-                <p>
-                  <label for="localFoto" class="texto2">Local da foto:<abbr title="required"
-                      aria-label="required">*</abbr></label>
-                  <input type="text" id="localFoto" name="local_foto" placeholder="Digite o local da foto" required>
-                </p>
-                <p>
-                  <label for="dataFoto" class="texto2">Data de registro:<abbr title="required"
-                      aria-label="required">*</abbr></label>
-                  <input type="date" id="dataFoto" name="data_foto" placeholder="Digite a data da foto" required>
-                </p>
-                <p>
-                  <label for="img" class="texto2">Arquivo de imagem:<abbr title="required"
-                      aria-label="required">*</abbr></label>
-                  <!-- <input type="text" id="confirm-pass" name="confirm-pass"  placeholder="Confirm your password here" required> -->
-                </p>
-                <ul>
-                  <li>
-                    <input type="radio" id="title1" name="title" value="J">
-                    <label for="title1">JPEG </label>
-                  </li>
-                  <li>
-                    <input type="radio" id="title2" name="title" value="P">
-                    <label for="title2">PNG</label>
-                  </li>
-                </ul>
-              </div>
-              <p class="aviso">*Preenchimento obrigatório</p>
+          <form>
+            <p>
+              <label>Nome do colaborador:</label>
+              <input type="text" id="usuario" name="nome" placeholder="Digite seu nome completo">
+            </p>
+            <p>
+              <label>Nome da foto:</label>
+              <input type="text" id="nomeFoto" name="nome_foto" placeholder="Digite o nome da foto">
+            </p>
+            <p>
+              <label>Local da foto:</label>
+              <input type="text" id="localFoto" name="local_foto" placeholder="Digite o local da foto">
+            </p>
+            <p>
+              <label>Data de registro:</label>
+              <input type="date" id="dataFoto" name="data_foto" placeholder="Digite a data da foto">
+            </p>
+            <p>
+              <label>Arquivo de imagem:</label>
 
-              <!-- Botão encaminhar -->
-              <div class="button-form"><button type="submit">Encaminhar</button></div>
+            </p>
+            <ul>
+              <li>
+                <input type="radio" id="title1" name="title" value="J">
+                <label for="title1">JPEG </label>
+              </li>
+              <li>
+                <input type="radio" id="title2" name="title" value="P">
+                <label for="title2">PNG</label>
+              </li>
+            </ul>
 
-            </fieldset>
+            <!-- Botão encaminhar -->
+            <div class="button-form"><button type="submit">Encaminhar</button></div>
           </form>
         </div>
       </section>
