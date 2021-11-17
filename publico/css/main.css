@@ -115,11 +115,12 @@ main {
 #concurso .section {
   display: flex;
   flex-direction: row;
+  min-height: 20em;
   border-bottom: 1px gray solid;
 }
 
 /* Position propriedade */
-.data-area > div {
+.data-area {
   position: relative;
   top: -60px;
 }
@@ -144,17 +145,23 @@ main {
 /**/
 
 /* Botão "Faça sua inscrição" */
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .button-insc {
   font-family: 'Cabin', sans-serif;
   color: white;
-  margin: 2em 2em 2em 3em;
+  margin-top: 2rem;
   padding: 1em;
-
   background-color: #336699;
-  border-style: none;
-  cursor: pointer;
+  transition: ease-in .3s;
 }
 
+.button-insc:hover {
+  transform: scale(1.1);
+}
 
 /* Formulário de inscrição */
 form {
