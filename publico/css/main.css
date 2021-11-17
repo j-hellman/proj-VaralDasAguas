@@ -101,10 +101,6 @@ main {
   line-height: 1.3 em;
 }
 
-.p-especial {
-  margin-bottom: 0;
-}
-
 .section {
   max-width: 80%;
   margin: 0 auto;
@@ -144,13 +140,13 @@ main {
 } 
 /**/
 
-/* Botão "Faça sua inscrição" */
-.btn-div {
+/* Botão Inscricao */
+.btn-insc {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.button-insc {
+.btn-insc a {
   font-family: 'Cabin', sans-serif;
   color: white;
   margin-top: 2rem;
@@ -159,7 +155,7 @@ main {
   transition: ease-in .3s;
 }
 
-.button-insc:hover {
+.btn-insc a:hover {
   transform: scale(1.1);
 }
 
