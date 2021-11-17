@@ -36,8 +36,8 @@ nav a:hover {
   background-color: #79512a;
 }
 
-/* Header */
-.header-area {
+/* Header logotipo*/
+header > div {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 /* Logomarca */
-.logo { 
+/* .logo { 
   width: 25em;
   color:  #79512a;
   margin-top: 3em;
@@ -67,7 +67,7 @@ nav a:hover {
 .logo > p {
   font-size: 25px;
   font-family: 'Cabin', sans-serif;
-}
+} */
 /*  */
 
 
@@ -76,60 +76,13 @@ main {
   background-color: #9bd9f0;
 }
 
-/*Seções texto */
+/* Seções */
 .wrapper {
   max-width: 80%;
   margin: 0 auto;
   background-color: #FFF;
   position: relative;
   top: -100px;
-}
-
-/* Para todas secoes */
-.section {
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-/* Flexbox & Linha borda inferior secao concurso */
-#concurso .section {
-  display: flex;
-  flex-direction: row;
-  border-bottom: 1px gray solid;
-}
-
-/* Position propriedade */
-.data-area > div {
-  position: relative;
-  top: -60px;
-}
-
-.concurso-area {
-  padding-right: 10em;
-}
-
-.inicio-div3 {
-  min-width: 15em;
-  padding: 2em;
-  margin-bottom: 0;
-  background-color: #336699;
-}
-
-.inicio-div3 > p {
-  color: white;
-}
-
-.inicio-div4 {
-  display: flex;
-  justify-content: center;
-}
-
-.titulo1 {
-  font-family: 'Cabin', sans-serif;
-  color: #336699 ;
-  text-align: center;
-  letter-spacing: 0.2em;
-  padding: 1em 0;
 }
 
 .section h1 {
@@ -152,6 +105,43 @@ main {
   margin-bottom: 0;
 }
 
+.section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/**/
+
+/* Flexbox & Linha borda inferior secao concurso */
+#concurso .section {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px gray solid;
+}
+
+/* Position propriedade */
+.data-area > div {
+  position: relative;
+  top: -60px;
+}
+
+.concurso-area {
+  padding-right: 10em;
+}
+
+/* Estilo da tag Exposicao/Apresentacao  */
+.data-subarea {
+  min-width: 15em;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 0;
+  color: #FFF;
+  background-color: #1e5e9e;
+}
+
+.data-subarea h4 {
+  margin: 2.5em 0 1em;
+} 
+/**/
 
 /* Botão "Faça sua inscrição" */
 .button-insc {
@@ -201,6 +191,7 @@ abbr {
 .button-form {
   text-align: center;
 }
+/**/
 
 .aviso {
   font-size: 12px;
@@ -208,7 +199,6 @@ abbr {
   color: #476b6b;
   text-align: right;
 }
-
 
 /* Rodapé */
 footer {
