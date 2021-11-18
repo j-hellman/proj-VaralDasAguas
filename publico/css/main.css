@@ -48,10 +48,10 @@ header > div {
 }
 
 /* Logomarca */
-/* .logo { 
+.logo { 
   width: 25em;
   color:  #79512a;
-  margin-top: 3em;
+  margin: 5em auto;
   text-align: center;
   border: 3px solid white;
   border-radius: 15px;
@@ -67,7 +67,7 @@ header > div {
 .logo > p {
   font-size: 25px;
   font-family: 'Cabin', sans-serif;
-} */
+}
 /*  */
 
 
@@ -158,10 +158,11 @@ main {
 .btn-insc a:hover {
   transform: scale(1.1);
 }
+/**/
 
 /* Formulário de inscrição */
 form {
-  max-width: 70ch;
+  max-width: 50ch;
   min-width: 500px;
   margin: 0 auto;
   border: 2px solid grey;
