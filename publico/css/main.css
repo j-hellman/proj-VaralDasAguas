@@ -54,7 +54,7 @@ header > div {
   margin: 5em auto;
   text-align: center;
   border: 3px solid white;
-  border-radius: 15px;
+  border-radius: 30px;
   border-right-style: none;
   border-left-style: none;
 }
@@ -69,7 +69,6 @@ header > div {
   font-family: 'Cabin', sans-serif;
 }
 /*  */
-
 
 /* Fundo texto */
 main {
