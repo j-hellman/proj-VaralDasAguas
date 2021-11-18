@@ -84,7 +84,7 @@ main {
   top: -100px;
 }
 
-.section h1 {
+.section h2 {
   font-family: 'Cabin', sans-serif;
   color: #336699 ;
   text-align: center;
@@ -134,7 +134,8 @@ main {
   background-color: #1e5e9e;
 }
 
-.data-subarea h4 {
+.data-subarea h3 {
+  font-size: 1rem;
   margin: 2.5em 0 1em;
 } 
 /**/
