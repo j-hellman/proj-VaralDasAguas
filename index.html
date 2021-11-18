@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="publico/css/reset.css">
   <link rel="stylesheet" href="publico/css/main.css">
 
+  <!-- JavaScript -->
+  <script src="publico/js/script.js"></script>
+
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
@@ -37,8 +40,8 @@
     <!-- Logotipo -->
     <div>
       <div class="logo">
-          <h1>Varal das Águas</h1>
-          <p>Concurso de Fotografia</p>
+        <h1>Varal das Águas</h1>
+        <p>Concurso de Fotografia</p>
       </div>
     </div>
   </header>
@@ -118,33 +121,33 @@
           <h2>INSCRIÇÃO</h2>
 
           <!-- Formulário de inscrição -->
-          <form>
-            <p>
-              <label>Nome do colaborador:</label>
-              <input type="text" id="usuario" name="nome" placeholder="Digite seu nome completo">
-            </p>
-            <p>
-              <label>Nome da foto:</label>
-              <input type="text" id="nomeFoto" name="nome_foto" placeholder="Digite o nome da foto">
-            </p>
-            <p>
-              <label>Local da foto:</label>
-              <input type="text" id="localFoto" name="local_foto" placeholder="Digite o local da foto">
-            </p>
-            <p>
-              <label>Data de registro:</label>
-              <input type="date" id="dataFoto" name="data_foto" placeholder="Digite a data da foto">
-            </p>
-            <p>
-              <label>Arquivo de imagem:</label>
-              <input type="file" name="foto" id="foto">
-            </p>
+            <form onsubmit="handleFile()">
+              <p>
+                <label>Nome do colaborador:</label>
+                <input type="text" id="usuario" name="nome" placeholder="Digite seu nome completo">
+              </p>
+              <p>
+                <label>Nome da foto:</label>
+                <input type="text" id="nomeFoto" name="nome_foto" placeholder="Digite o nome da foto">
+              </p>
+              <p>
+                <label>Local da foto:</label>
+                <input type="text" id="localFoto" name="local_foto" placeholder="Digite o local da foto">
+              </p>
+              <p>
+                <label>Data de registro:</label>
+                <input type="date" id="dataFoto" name="data_foto" placeholder="Digite a data da foto">
+              </p>
+              <p>
+                <label>Arquivo de imagem:</label>
+                <input type="file" name="foto" id="foto">
+              </p>
 
-            <!-- Botão encaminhar -->
-            <div class="btn-form">
-              <button type="submit">Encaminhar</button>
-            </div>
-          </form>
+              <!-- Botão encaminhar -->
+              <div class="btn-form">
+                <button type="submit">Encaminhar</button>
+              </div>
+            </form>
         </div>
       </section>
     </div>
@@ -155,4 +158,5 @@
 
 
 </body>
+
 </html>
