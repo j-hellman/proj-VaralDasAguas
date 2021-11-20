@@ -80,6 +80,7 @@ main {
   max-width: 80%;
   margin: 0 auto;
   background-color: #FFF;
+  padding-bottom: 3rem;
   position: relative;
   top: -80px;
 }
@@ -162,12 +163,15 @@ main {
 
 /* Formulário de inscrição */
 form {
-  max-width: 50ch;
-  min-width: 500px;
+  max-width: 80ch;
   margin: 0 auto;
   border: 2px solid grey;
   border-radius: 1em;
-  padding: 1em;
+  padding: 1em 2em;
+}
+
+form label {
+  width: 50ch;
 }
 
 .btn-form {
