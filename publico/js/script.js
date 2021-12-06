@@ -5,6 +5,6 @@ const localFoto = document.getElementById('localFoto');
 const dataFoto = document.getElementById('dataFoto');
 const foto = document.getElementById('foto');
 
-function handleFile(e) {
-  e.preventDefault();
+function handleFile() {
+  alert("testando")
 }
