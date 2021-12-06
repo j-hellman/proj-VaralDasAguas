@@ -1,10 +1,18 @@
 
-const nomeColaborador = document.getElementById('usuario');
-const nomeFoto = document.getElementById('nomeFoto');
-const localFoto = document.getElementById('localFoto');
-const dataFoto = document.getElementById('dataFoto');
-const foto = document.getElementById('foto');
-
 function handleFile() {
-  alert("testando")
+  const nomeColaborador = document.getElementById('tNome');
+  const nomeFoto = document.getElementById('tNomeFoto');
+  const localFoto = document.getElementById('tLocal');
+  const dataFoto = document.getElementById('tData');
+  const foto = document.getElementById('tFoto');
+
+  const lista = [{
+    NomeColaborador: nomeColaborador,
+    NomeFoto: nomeFoto,
+    LocalFoto: localFoto,
+    DataFoto: dataFoto,
+    Foto: foto
+  }];
+
+  console.log(lista);
 }
