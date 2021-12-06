@@ -68,7 +68,7 @@ header > div {
   font-size: 25px;
   font-family: 'Cabin', sans-serif;
 }
-/*  */
+/**/
 
 /* Fundo texto */
 main {
@@ -169,10 +169,6 @@ form {
   border-radius: 1em;
   padding: 1em 2em;
 }
-
-/* form label {
-  width: 50ch;
-} */
 
 .btn-form {
   text-align: center;
